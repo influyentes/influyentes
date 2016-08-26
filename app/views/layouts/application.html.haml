@@ -1,0 +1,14 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "NOODP", name: "ROBOTS"}/
+    %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
+    %title= title
+    = stylesheet_link_tag :application, media: "all"
+    = csrf_meta_tags
+  %body{class: body_class}
+    = render "flashes"
+    = yield
+    = render "javascript"
+    = render "css_overrides"
