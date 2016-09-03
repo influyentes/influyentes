@@ -1,0 +1,25 @@
+%footer#landing-footer
+  .landing-overlay
+  .landing-footer-content
+    .container
+      .row
+        .col-md-4.col-sm-4.col-md-push-5
+          %h3.landing-lead= t("views.home.navigation.content.about")
+          %ul
+            %li= link_to t("views.home.navigation.actions.home"), "#", data: { nav_section: "home" }
+            %li= link_to t("views.home.navigation.actions.contact_us"), "mailto:contact@influyentes.org"
+
+        .col-md-4.col-sm-4.col-md-push-4
+          %h3.landing-lead= t("views.home.navigation.content.support")
+          %ul
+            %li= link_to t("views.home.navigation.actions.terms_of_service"), "#"
+            %li= link_to t("views.home.navigation.actions.privacy_policy"), "#"
+
+        .col-md-4.col-sm-12.col-md-pull-6
+          .landing-footer-logo
+            = link_to title, root_path
+          %p.landing-copyright
+            %small
+              = link_to t("views.home.navigation.actions.license"),
+                "//creativecommons.org/licenses/by-sa/4.0"
+          = render "social"

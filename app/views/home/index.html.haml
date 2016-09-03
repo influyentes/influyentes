@@ -1,1 +1,23 @@
-home
+= render "navigation"
+
+#landing-page
+  #landing-wrap
+    = render "header"
+
+    #landing-main
+      -# NOTE: Enable this if some organization support us
+      -# = render "organizations-support-us"
+
+      = render "features"
+
+      -# NOTE: Counters (future)
+      -# = render "counters"
+
+      = render "benefits"
+
+      -# NOTE: Banner register (future)
+      -# = render "banner-register"
+
+      = render "faqs"
+      = render "newsletter-form"
+  = render "footer"

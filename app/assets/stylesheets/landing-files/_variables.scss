@@ -1,0 +1,31 @@
+@import "bootstrap/variables";
+
+// Fonts
+
+$font-monsterrat: "Montserrat", arial, sans-serif;
+$font-playfair: "Playfair Display", times, serif;
+$font-arial: Arial , sans-serif;
+$font-opensans: "Open Sans", Arial , sans-serif;
+
+// Overrides
+
+$grid-gutter-width: 40px !default;
+$border-radius-base:  4px !default;
+$padding-base-vertical: 14px !default;
+
+$brand-primary: #2ECC71;
+$brand-secondary: #27AE60;
+$brand-white: #fff;
+$brand-black: #000;
+$brand-darker: #444;
+$brand-gray: #ccc;
+$brand-lighter: #e9e9e9;
+$brand-body-color: #818892;
+$brand-selection-color: #f9f6f0;
+$brand-overlay-color: #3b3d40;
+$brand-bg-color: $brand-white;
+
+$input-border-focus:  $brand-primary !default;
+$form-group-margin-bottom:       30px !default;
+
+$navbar-height:                  60px !default;

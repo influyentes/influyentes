@@ -1,0 +1,24 @@
+#landing-offcanvass
+  %ul
+    %li.active
+      = link_to t("views.home.navigation.actions.home"), "#", data: { nav_section: "home" }
+    %li
+      = link_to t("views.home.navigation.actions.features"), "#", data: { nav_section: "features" }
+    %li
+      = link_to t("views.home.navigation.actions.faqs"), "#", data: { nav_section: "faqs" }
+    %li
+      = link_to t("views.home.navigation.actions.newsletter"), "#", data: { nav_section: "newsletter" }
+  %h3.landing-lead= t("views.home.navigation.content.connect_with_us")
+  = render "social"
+
+#landing-menu.navbar
+  .container
+    .row
+      .col-md-12
+        = link_to "#", class: "js-landing-nav-toggle landing-nav-toggle",
+          aria: { controls: "navbar", expanded: "false" },
+          data: { target: "#landing-navbar", toggle: "collapse" } do
+          %span= t("views.home.navigation.content.menu")
+          %i
+        = link_to root_path, class: "navbar-brand" do
+          %span= title

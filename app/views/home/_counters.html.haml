@@ -1,0 +1,11 @@
+#landing-counter.landing-bg-section
+  .landing-overlay
+  .container
+    .row
+      .col-md-12
+        .landing-hero-wrap
+          .landing-hero-intro.text-center.to-animate.counter-animate
+            .col-md-4.text-center
+              %span.landing-counter.js-counter{ data: { from: "0", refresh_interval: "50",
+                speed: "5000", to: "28" } }
+              %span.landing-counter-label= "Ciudadanos registrados"

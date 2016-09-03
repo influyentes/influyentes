@@ -15,10 +15,11 @@ gem "delayed_job_active_record"
 # Authentication
 gem "devise"
 
-## Authorization
+# Authorization
 gem "pundit"
 
 # Front-end
+gem "haml", "~> 4.0.5"
 gem "autoprefixer-rails"
 gem "jquery-rails"
 gem "normalize-rails", "~> 3.0.0"
@@ -27,11 +28,12 @@ gem "bourbon", "5.0.0.beta.6"
 gem "sprockets", ">= 3.0.0"
 gem "sprockets-es6"
 gem "uglifier"
-gem "neat", "~> 1.8.0" # front-end framework
+gem "bootstrap-sass", "~> 3.3.6" # front-end framework
 gem "haml", "~> 4.0.5"
 gem "flutie"
 gem "title"
 gem "simple_form"
+gem "font-awesome-rails"
 
 # Static pages
 gem "high_voltage"
@@ -66,7 +68,6 @@ group :development, :test do
   gem "pry-byebug"
   gem "pry-rails"
   gem "rspec-rails", "~> 3.5.0.beta4"
-  gem "refills"
 end
 
 group :development, :staging do

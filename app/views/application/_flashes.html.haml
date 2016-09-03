@@ -1,4 +1,5 @@
 - if flash.any?
-  .flashes
-    - user_facing_flashes.each do |key, value|
-      %div{class: "flash-#{key}"}= value
+  - user_facing_flashes.each do |type, message|
+    %div{class: "alert alert-#{type}"}
+      %button.close{"data-dismiss" => "alert"} ×
+      = message

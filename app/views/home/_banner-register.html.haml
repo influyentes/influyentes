@@ -1,0 +1,13 @@
+#landing-cta.landing-bg-section.cta.bg-hero
+  .landing-overlay
+  .container
+    .row
+      .col-md-12
+        .landing-hero-wrap
+          .landing-hero-intro.text-center
+            .row
+              .col-md-8.col-md-offset-2.landing-section-heading.text-center
+                %h2.landing-lead.to-animate= t("views.home.index.title.banner_register")
+                %p.landing-sub.to-animate= t("views.home.index.content.description_banner_register")
+                .to-animate
+                  = link_to t("views.home.index.actions.start_today"), "#", class: "btn btn-primary"

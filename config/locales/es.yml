@@ -1,0 +1,66 @@
+es:
+  date:
+    formats:
+      default:
+        "%m/%d/%Y"
+      with_weekday:
+        "%a %m/%d/%y"
+
+  time:
+    formats:
+      default:
+        "%a, %b %-d, %Y at %r"
+      date:
+        "%b %-d, %Y"
+      short:
+        "%B %d"
+
+  titles:
+    application: Influyentes
+
+  views:
+    home:
+      navigation:
+        content:
+          menu: "Menú"
+          connect_with_us: "Conecta con nosotros"
+          about: "Sobre nosotros"
+          support: "Soporte"
+        actions:
+          home: "Inicio"
+          features: "Caracteristicas"
+          faqs: "Preguntas Frecuentes"
+          newsletter: "Suscribete"
+          contact_us: "Contáctenos"
+          terms_of_service: "Términos de servicio"
+          privacy_policy: "Privacy Policy"
+          license: "Creative Commons BY-SA 4.0"
+      index:
+        title:
+          slogan: "{ Slogan }"
+          features: "Lo que queremos ofrecer"
+          banner_register: "Registrate desde hoy!"
+          faqs: "Preguntas Frecuentes"
+        content:
+          description_slogan: "{ pequeña descripción junto el slogan }"
+          description_features: "Estas son las funcionalidades que queremos ofrecer, con ayuda de los ciudadanos."
+          description_banner_register: "Te invitamos a que te registres y te involucres."
+          description_faqs: "No dudes en contactarnos si tú pregunta no está en el siguiente listado de preguntas frecuentes."
+          faq_1:
+            question: "¿Por qué surgimos?"
+            answer: "Hoy en día los ciudadanos se ven sometidas a las medias que toman unilateralmente los gobiernos y lo único que pueden hacer es sufrir las consecuencias sin poder expresar su opinión sobre las mismas y mucho menos hacer que se reviertan."
+          faq_2:
+            question: "¿Cómo pensamos resolverlo?"
+            answer: "Nosotros pensamos resolver este problema ofreciendo un mecanismo para mostrar el acuerdo o el rechazo de las medidas mencionadas anteriormente."
+          faq_3:
+            question: "¿Cómo funciona el mecanismo?"
+            answer: "Dejar sentado la conformidad o la inconformidad de los ciudadanos a través de encuestas sobre las medidas tomadas por los gobierno nacionales en nuestra plataforma en línea, influyentes.org donde se enviaran os resultados de las encuestas a los gobiernos y Medios de comunicaciones televisivos y radiales; también en las redes sociales a través de los usuarios en conjunto con nuestro canal de youtube en formato de informativo y otras redes."
+          faq_4:
+            question: "¿Cuál seria la síntesis?"
+            answer: "Al constituirse la plataforma seremos el equivalente termómetro de la opinión pública que logrará la presión mediática y social sobre los gobiernos para que actúen en congruencia con las verdaderas necesidades y prioridades de los Ciudadanos de la Nación."
+          faq_5:
+            question: "¿Cómo puedo colaborar?"
+            answer: "Puedes colaborar programando y diseñando la plataforma. También puedes sugerir nuevas funcionalidades y mejoras."
+        actions:
+          contact_us: "Contáctenos"
+          start_today: "¡Empieza hoy!"

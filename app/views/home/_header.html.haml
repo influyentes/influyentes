@@ -1,0 +1,12 @@
+%header#landing-hero.bg-header{ data: { section: "home" }, role: "banner" }
+  .landing-overlay
+  .landing-intro
+    .container
+      .row
+        .col-md-6.landing-text
+          %h2.to-animate.intro-animate-1= t("views.home.index.title.slogan")
+          %p.to-animate.intro-animate-2= t("views.home.index.content.description_slogan")
+          %p.to-animate.intro-animate-3
+            = link_to "mailto:contact@influyentes.org", class: "btn btn-primary btn-md" do
+              = fa_icon "envelope"
+              = t("views.home.index.actions.contact_us")

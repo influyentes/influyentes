@@ -1,0 +1,16 @@
+#landing-newsletter{ data: { section: "newsletter" } }
+  .container
+    .row.animate-box
+      %form{:action => "#", :method => "post"}
+        .col-md-3.col-sm-3
+          .form-group
+            %input.form-control{:placeholder => "First Name", :type => "text"}/
+        .col-md-3.col-sm-3
+          .form-group
+            %input.form-control{:placeholder => "Last Name", :type => "text"}/
+        .col-md-3.col-sm-3
+          .form-group
+            %input.form-control{:placeholder => "Email", :type => "email"}/
+        .col-md-3.col-sm-3
+          .form-group
+            %input.btn.btn-primary{:type => "submit", :value => "Subscribe"}/

@@ -1,0 +1,56 @@
+@import "font-awesome";
+@import "bootstrap-sprockets";
+
+// Core variables and mixins
+@import "default/variables";
+@import "default/mixins";
+
+// Reset and dependencies
+@import "default/normalize";
+@import "default/print";
+// @import "default/glyphicons";
+
+// Core CSS
+@import "default/scaffolding";
+@import "default/type";
+// @import "default/code";
+@import "default/grid";
+// @import "default/tables";
+@import "default/forms";
+@import "default/buttons";
+
+// Components
+@import "default/component-animations";
+@import "default/dropdowns";
+// @import "default/button-groups";
+// @import "default/input-groups";
+@import "default/navs";
+@import "default/navbar";
+// @import "default/breadcrumbs";
+// @import "default/pagination";
+// @import "default/pager";
+// @import "default/labels";
+// @import "default/badges";
+// @import "default/jumbotron";
+@import "default/thumbnails";
+@import "default/alerts";
+// @import "default/progress-bars";
+// @import "default/media";
+// @import "default/list-group";
+// @import "default/panels";
+// @import "default/responsive-embed";
+// @import "default/wells";
+@import "default/close";
+
+// Components w/ JavaScript
+// @import "default/modals";
+// @import "default/tooltip";
+// @import "default/popovers";
+// @import "default/carousel";
+
+// Utility classes
+@import "default/utilities";
+@import "default/responsive-utilities";
+
+// Extra
+// put here extra styles
