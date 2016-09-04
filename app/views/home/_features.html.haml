@@ -2,29 +2,29 @@
   .container
     .row
       .col-md-8.col-md-offset-2.landing-section-heading.text-center
-        %h2.landing-lead.to-animate= "Lo que queremos ofrecer"
-        %p.landing-sub.to-animate= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida molestie quam quis ornare. Sed viverra ligula in lacus pharetra, eu viverra odio porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        %h2.landing-lead.to-animate.green= t("views.home.index.title.features")
+        %p.landing-sub.to-animate= t("views.home.index.content.description_features")
       .col-md-3.col-sm-6.col-xs-6.col-xxs-12
         %a.landing-feature.to-animate{:href => "#"}
           %span.landing-feature-icon
-            %i.icon-mustache
-          %h3.landing-feature-lead= "Representación propia"
-          %p.landing-feature-text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            = fa_icon "comments-o"
+          %h3.landing-feature-lead= t("views.home.index.content.feature_1.tag")
+          %p.landing-feature-text= t("views.home.index.content.feature_1.description")
       .col-md-3.col-sm-6.col-xs-6.col-xxs-12
         %a.landing-feature.to-animate{:href => "#"}
           %span.landing-feature-icon
-            %i.icon-mustache
-          %h3.landing-feature-lead= "Auditoria Ciudadana"
-          %p.landing-feature-text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            = fa_icon "newspaper-o"
+          %h3.landing-feature-lead= t("views.home.index.content.feature_2.tag")
+          %p.landing-feature-text= t("views.home.index.content.feature_2.description")
       .col-md-3.col-sm-6.col-xs-6.col-xxs-12
         %a.landing-feature.to-animate{:href => "#"}
           %span.landing-feature-icon
-            %i.icon-mustache
-          %h3.landing-feature-lead= "Empoderamiento ciudadano"
-          %p.landing-feature-text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            = fa_icon "bullhorn"
+          %h3.landing-feature-lead= t("views.home.index.content.feature_3.tag")
+          %p.landing-feature-text= t("views.home.index.content.feature_3.description")
       .col-md-3.col-sm-6.col-xs-6.col-xxs-12
         %a.landing-feature.to-animate{:href => "#"}
           %span.landing-feature-icon
-            %i.icon-mustache
-          %h3.landing-feature-lead= "Codigo abierto"
-          %p.landing-feature-text= "Ofrecemos todo el codigo de la plataforma al public, porque no tenemos nada que esconder."
+            = fa_icon "code"
+          %h3.landing-feature-lead= t("views.home.index.content.feature_4.tag")
+          %p.landing-feature-text= t("views.home.index.content.feature_4.description")

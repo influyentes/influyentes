@@ -547,7 +547,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #landing-products,
-#landing-features {
+#landing-features,
+#landing-features-3 {
   border-bottom: 1px solid lighten($brand-gray,15%);
 }
 #landing-features,
@@ -739,7 +740,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 0 auto;
     position: relative;
-    border: 2px solid $brand-secondary;
     border-radius: 50%;
     transition: .3s;
     i {
@@ -828,6 +828,9 @@ h1, h2, h3, h4, h5, h6 {
   .landing-lead {
     font-size: 45px;
     line-height: 60px;
+    &.green {
+      color: darken($brand-secondary, 7%);
+    }
     @media screen and (max-width: $screen-sm) {
       font-size: 35px;
       line-height: 50px;
