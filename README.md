@@ -2,13 +2,17 @@
 
 [![Build Status][1]][2] [![Dependency Status][3]][4] [![Code Climate][5]][6] [![Chat][7]][8]
 
+## Get start
+
+See this small guide [get-start].
+
 ## Contributing
 
 See this small guide [contributing].
 
 ## Contributors
 
-TODO.
+See this list of [contributors].
 
 ## License
 
@@ -29,3 +33,5 @@ MIT License.
 [8]: https://gitter.im/influyentes/influyentes
 
 [contributing]: https://github.com/thoughtbot/laptop#what-it-sets-up
+[contributors]: https://github.com/influyentes/influyentes/blob/master/CONTRIBUTING.md
+[get-start]:    https://github.com/influyentes/influyentes/blob/master/CONTRIBUTING.md
