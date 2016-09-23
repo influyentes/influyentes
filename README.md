@@ -6,6 +6,23 @@
 
 See this small guide [get-start].
 
+## Branches
+
+Branch **`master`**:
+
+- Development code.
+- All the pull-request go to this branch. Thanks.
+
+Branch **`staging`**:
+
+- This branch is associed with the http://staging.influyentes.org 
+- We dont accept pull-request to this branch. Only hotfixes.
+
+Branch **`production`**:
+
+- This branch is associed with the http://influyentes.org
+- We dont accept pull-request to this branch. Only *hot-fixes*.
+
 ## Contributing
 
 See this small guide [contributing].
