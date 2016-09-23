@@ -19,7 +19,6 @@ gem "devise"
 gem "pundit"
 
 # Front-end
-gem "haml", "~> 4.0.5"
 gem "autoprefixer-rails"
 gem "jquery-rails"
 gem "normalize-rails", "~> 3.0.0"
