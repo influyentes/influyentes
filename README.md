@@ -31,10 +31,6 @@ See this small guide [contributing].
 
 See this list of [contributors].
 
-## License
-
-MIT License.
-
 [1]: https://api.travis-ci.org/influyentes/influyentes.svg?branch=master
 [2]: https://travis-ci.org/influyentes/influyentes
 
