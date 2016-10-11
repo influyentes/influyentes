@@ -1,0 +1,20 @@
+sudo: false
+cache: bundler
+language: ruby
+rvm:
+  - 2.3.1
+addons:
+  postgresql: '9.4'
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+  - cp -f config/database.travis.yml config/database.yml
+before_install:
+  - gem --version
+webhooks:
+  urls:
+    - https://webhooks.gitter.im/e/c1b921a7220a9e2edab2
+  on_success: change
+  on_failure: always
+  on_start: never

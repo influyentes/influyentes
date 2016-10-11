@@ -2,10 +2,10 @@
 haml:
   enabled: true
 
-javascript:
+jshint:
   enabled: true
 
-coffescript:
+coffeescript:
   enabled: true
 
 ruby:
