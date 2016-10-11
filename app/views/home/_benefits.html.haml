@@ -3,22 +3,15 @@
     .row
       .col-md-8.col-md-offset-2.landing-section-heading.text-center
         %h2.landing-lead.animate-single.features3-animate-1.green= t("views.home.index.title.benefits")
-      .col-md-4.col-sm-6.text-center.landing-text-wrap
-        .landing-text.to-animate
-          %span.landing-icon
-            %i.icon-screen-desktop
-          %h4.landing-uppercase-sm= t("views.home.index.content.benefit_1.tag")
-          %p= t("views.home.index.content.benefit_1.description")
-      .col-md-4.col-sm-6.text-center.landing-text-wrap
-        .landing-text.to-animate
-          %span.landing-icon
-            %i.icon-graph
-          %h4.landing-uppercase-sm= t("views.home.index.content.benefit_2.tag")
-          %p= t("views.home.index.content.benefit_2.description")
-      .col-md-4.col-sm-6.text-center.landing-text-wrap
-        .landing-text.to-animate
-          %span.landing-icon
-            %i.icon-camera
-          %h4.landing-uppercase-sm= t("views.home.index.content.benefit_3.tag")
-          %p= t("views.home.index.content.benefit_3.description")
-      -# .clearfix.visible-sm-block
+
+      = block_benefit t('views.home.index.content.benefit_1.tag'),
+                      t('views.home.index.content.benefit_1.description')
+
+      = block_benefit t('views.home.index.content.benefit_2.tag'),
+                      t('views.home.index.content.benefit_2.description')
+
+      -# This block needs to be putted after each '2x block_benefit'
+      .clearfix.visible-sm-block
+
+      = block_benefit t('views.home.index.content.benefit_3.tag'),
+                      t('views.home.index.content.benefit_3.description')

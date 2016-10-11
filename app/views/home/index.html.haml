@@ -1,23 +1,26 @@
-= render "navigation"
+= render 'navigation'
 
 #landing-page
   #landing-wrap
-    = render "header"
+    = render 'header'
 
     #landing-main
       -# NOTE: Enable this if some organization support us
-      -# = render "organizations-support-us"
+      -# = render 'organizations-support-us'
 
-      = render "features"
+      = render 'features'
 
       -# NOTE: Counters (future)
       -# = render "counters"
 
-      = render "benefits"
+      = render 'benefits'
 
       -# NOTE: Banner register (future)
-      -# = render "banner-register"
+      -# = render 'banner-register'
 
-      = render "faqs"
-      = render "newsletter-form"
-  = render "footer"
+      = render 'faqs'
+
+      -# NOTE: Disabled until we develop this feature
+      -# = render 'newsletter-form'
+
+  = render 'footer'
