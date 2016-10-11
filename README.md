@@ -6,7 +6,7 @@
 
 See this small guide [get-start].
 
-## Branches
+## Workflow
 
 Branch **`master`**:
 
@@ -15,13 +15,13 @@ Branch **`master`**:
 
 Branch **`staging`**:
 
-- This branch is associed with the http://staging.influyentes.org 
-- We dont accept pull-request to this branch. Only hotfixes.
+- This branch is associed with the http://staging.influyentes.org
+- We don't accept pull-request to this branch. Only *hot-fixes*.
 
 Branch **`production`**:
 
 - This branch is associed with the http://influyentes.org
-- We dont accept pull-request to this branch. Only *hot-fixes*.
+- We don't accept pull-request to this branch. Only *hot-fixes*.
 
 ## Contributing
 
