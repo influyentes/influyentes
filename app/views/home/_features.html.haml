@@ -3,28 +3,15 @@
     .row
       .col-md-8.col-md-offset-2.landing-section-heading.text-center
         %h2.landing-lead.to-animate.green= t("views.home.index.title.features")
-        %p.landing-sub.to-animate= t("views.home.index.content.description_features")
-      .col-md-3.col-sm-6.col-xs-6.col-xxs-12
-        %a.landing-feature.to-animate{:href => "#"}
-          %span.landing-feature-icon
-            = fa_icon "comments-o"
-          %h3.landing-feature-lead= t("views.home.index.content.feature_1.tag")
-          %p.landing-feature-text= t("views.home.index.content.feature_1.description")
-      .col-md-3.col-sm-6.col-xs-6.col-xxs-12
-        %a.landing-feature.to-animate{:href => "#"}
-          %span.landing-feature-icon
-            = fa_icon "newspaper-o"
-          %h3.landing-feature-lead= t("views.home.index.content.feature_2.tag")
-          %p.landing-feature-text= t("views.home.index.content.feature_2.description")
-      .col-md-3.col-sm-6.col-xs-6.col-xxs-12
-        %a.landing-feature.to-animate{:href => "#"}
-          %span.landing-feature-icon
-            = fa_icon "bullhorn"
-          %h3.landing-feature-lead= t("views.home.index.content.feature_3.tag")
-          %p.landing-feature-text= t("views.home.index.content.feature_3.description")
-      .col-md-3.col-sm-6.col-xs-6.col-xxs-12
-        %a.landing-feature.to-animate{:href => "#"}
-          %span.landing-feature-icon
-            = fa_icon "code"
-          %h3.landing-feature-lead= t("views.home.index.content.feature_4.tag")
-          %p.landing-feature-text= t("views.home.index.content.feature_4.description")
+
+      = block_feature title: t('views.home.index.content.feature_1.tag'),
+                      text: t('views.home.index.content.feature_1.description'),
+                      icon: fa_icon('code'),
+                      block_class: 'col-md-offset-1'
+
+      = block_feature title: t('views.home.index.content.feature_2.tag'),
+                      text: t('views.home.index.content.feature_2.description'),
+                      icon: fa_icon('newspaper-o')
+
+      -# This block needs to be putted after each '2x block_feature'
+      .clearfix.visible-sm-block

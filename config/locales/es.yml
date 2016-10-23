@@ -28,9 +28,10 @@ es:
           support: "Soporte"
         actions:
           home: "Inicio"
-          features: "Mecanismo"
+          mechanisms: "Mecanismo"
+          features: "Características"
           benefits: "Beneficios"
-          faqs: "Preguntas Frecuentes"
+          # faqs: "Preguntas Frecuentes"
           newsletter: "Suscríbete"
           contact_us: "Contáctenos"
           terms_of_service: "Términos de servicio"
@@ -39,52 +40,64 @@ es:
       index:
         title:
           slogan: "Tu voz cuenta"
-          features: "Mecanismo"
+          mechanisms: "Mecanismo"
+          features: "Características"
           benefits: "Beneficios"
           banner_register: "¡Regístrate desde hoy!"
-          faqs: "Preguntas Frecuentes"
+          # faqs: "Preguntas Frecuentes"
         content:
           description_slogan: "Juntos podemos influir y decidir para crear un mejor presente."
-          description_features: "Estas son las funcionalidades que queremos ofrecer, con ayuda de los ciudadanos."
           description_banner_register: "Te invitamos a que te registres y te involucres."
-          description_faqs: "No dudes en contactarnos si tú pregunta no está en el siguiente listado de preguntas frecuentes."
-          description_features: "Participa en las encuestas. Entérate del resulta de dichos testeos. El efecto mediático de las encuestas permitirá influir en las medidas de gobierno."
+
+          # Mechanisms
+          mechanism_1:
+            tag: "Posicionate"
+            description: "eligiendo al partido u organización que te representa."
+          mechanism_2:
+            tag: "Informate"
+            description: "observando los resultados en cualquier momento y lugar."
+
+          # Features
           feature_1:
-            tag: "Opina"
-            description: "participando en las encuestas sobre las medidas publicas."
-          feature_2:
-            tag: "Infórmate"
-            description: "del resultado de las encuestas."
-          feature_3:
-            tag: "Influí"
-            description: "sobre los gobiernos con el peso de las encuestas."
-          feature_4:
             tag: "Código abierto"
             description: "El código de la plataforma es público, aportando transparencia."
+          feature_2:
+            tag: "En tiempo real"
+            description: "Los datos y resultados se actualizan al momento."
+
+          # Benefits
           benefit_1:
             tag: "Registro"
             description: "Tener una base de datos que refleja la opinión del publico."
           benefit_2:
-            tag: "Auditoria"
-            description: "Cuantificando el desvió de las medidas de gobierno con respecto a la opinión publica."
+            tag: "Alternativa"
+            description: "Una propuesta inovadora a las encuestas tradicionales."
           benefit_3:
             tag: "Transparencia"
             description: "Todo el código de la aplicación es totalmente publico."
-          faq_1:
-            question: "¿Por qué surgimos?"
-            answer: "Hoy en día los ciudadanos se ven sometidas a las medias que toman unilateralmente los gobiernos y lo único que pueden hacer es sufrir las consecuencias sin poder expresar su opinión sobre las mismas y mucho menos hacer que se reviertan."
-          faq_2:
-            question: "¿Cómo pensamos resolverlo?"
-            answer: "Nosotros pensamos resolver este problema ofreciendo un mecanismo para mostrar el acuerdo o el rechazo de las medidas mencionadas anteriormente."
-          faq_3:
-            question: "¿Cómo funciona el mecanismo?"
-            answer: "Dejar sentado la conformidad o la inconformidad de los ciudadanos a través de encuestas sobre las medidas tomadas por los gobierno nacionales en nuestra plataforma en línea, influyentes.org donde se enviaran los resultados de las encuestas a los gobiernos y Medios de comunicaciones televisivos y radiales; también en las redes sociales a través de los usuarios en conjunto con nuestro canal de youtube en formato de informativo y otras redes."
-          faq_4:
-            question: "¿Cuál sería la síntesis?"
-            answer: "Al constituirse la plataforma seremos el equivalente termómetro de la opinión pública que logrará la presión mediática y social sobre los gobiernos para que actúen en congruencia con las verdaderas necesidades y prioridades de los Ciudadanos de la Nación."
-          faq_5:
-            question: "¿Cómo puedo colaborar?"
-            answer: "Puedes colaborar programando y diseñando la plataforma. También puedes sugerir nuevas funcionalidades y mejoras."
+          benefit_4:
+            tag: "Democracia liquida"
+            description: "Impulsamos un lugar para lograr un gobierno abierto (open government) y popular."
+          benefit_5:
+            tag: "Vo"
+            description: "Todo el código de la aplicación es totalmente publico."
+
+          # FAQs
+          # faq_1:
+          #   question: "¿Por qué surgimos?"
+          #   answer: "Hoy en día los ciudadanos se ven sometidos a las medias que toman unilateralmente los gobiernos y lo único que pueden hacer es sufrir las consecuencias sin poder expresar su opinión sobre las mismas y mucho menos hacer que se reviertan."
+          # faq_2:
+          #   question: "¿Cómo pensamos resolver el problema?"
+          #   answer: "Ofreciendo heremientas y mecanismos para la empoderación de los ciudadanos."
+          # faq_3:
+          #   question: "¿Cómo funciona el mecanismo?"
+          #   answer: "Dejar sentado la conformidad o la inconformidad de los ciudadanos a través de encuestas sobre las medidas tomadas por los gobierno nacionales en nuestra plataforma en línea, influyentes.org donde se enviaran los resultados de las encuestas a los gobiernos y Medios de comunicaciones televisivos y radiales; también en las redes sociales a través de los usuarios en conjunto con nuestro canal de youtube en formato de informativo y otras redes."
+          # faq_4:
+          #   question: "¿Cuál sería la síntesis?"
+          #   answer: "Al constituirse la plataforma seremos el equivalente termómetro de la opinión pública que logrará la presión mediática y social sobre los gobiernos para que actúen en congruencia con las verdaderas necesidades y prioridades de los Ciudadanos de la Nación."
+          # faq_5:
+          #   question: "¿Cómo puedo colaborar?"
+          #   answer: "Puedes colaborar programando y diseñando la plataforma. También puedes sugerir nuevas funcionalidades y mejoras."
         actions:
           contact_us: "Contáctenos"
           start_today: "¡Empieza hoy!"
