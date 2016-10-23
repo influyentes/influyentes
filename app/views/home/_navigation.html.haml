@@ -1,15 +1,20 @@
 #landing-offcanvass
   %ul
     %li.active
-      = link_to t("views.home.navigation.actions.home"), "#", data: { nav_section: "home" }
+      = link_to t("views.home.navigation.actions.home"), "#",
+        data: { nav_section: "home" }
     %li
-      = link_to t("views.home.navigation.actions.features"), "#", data: { nav_section: "features" }
+      = link_to t("views.home.navigation.actions.mechanisms"), "#",
+        data: { nav_section: "mechanisms" }
     %li
-      = link_to t("views.home.navigation.actions.benefits"), "#", data: { nav_section: "benefits" }
+      = link_to t("views.home.navigation.actions.benefits"), "#",
+        data: { nav_section: "benefits" }
     %li
-      = link_to t("views.home.navigation.actions.faqs"), "#", data: { nav_section: "faqs" }
+      = link_to t("views.home.navigation.actions.features"), "#",
+        data: { nav_section: "features" }
     %li
-      = link_to t("views.home.navigation.actions.newsletter"), "#", data: { nav_section: "newsletter" }
+      = link_to t("views.home.navigation.actions.newsletter"), "#",
+        data: { nav_section: "newsletter" }
   %h3.landing-lead= t("views.home.navigation.content.connect_with_us")
   = render "social"
 

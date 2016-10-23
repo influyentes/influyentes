@@ -4,14 +4,19 @@
       .col-md-8.col-md-offset-2.landing-section-heading.text-center
         %h2.landing-lead.animate-single.features3-animate-1.green= t("views.home.index.title.benefits")
 
-      = block_benefit t('views.home.index.content.benefit_1.tag'),
-                      t('views.home.index.content.benefit_1.description')
+      = block_benefit title: t('views.home.index.content.benefit_1.tag'),
+                      text: t('views.home.index.content.benefit_1.description'),
+                      block_class: 'col-md-offset-2'
 
-      = block_benefit t('views.home.index.content.benefit_2.tag'),
-                      t('views.home.index.content.benefit_2.description')
+      = block_benefit title: t('views.home.index.content.benefit_2.tag'),
+                      text: t('views.home.index.content.benefit_2.description')
 
       -# This block needs to be putted after each '2x block_benefit'
       .clearfix.visible-sm-block
 
-      = block_benefit t('views.home.index.content.benefit_3.tag'),
-                      t('views.home.index.content.benefit_3.description')
+      = block_benefit title: t('views.home.index.content.benefit_3.tag'),
+                      text: t('views.home.index.content.benefit_3.description'),
+                      block_class: 'col-md-offset-2'
+
+      = block_benefit title: t('views.home.index.content.benefit_4.tag'),
+                      text: t('views.home.index.content.benefit_4.description')
