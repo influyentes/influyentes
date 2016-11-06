@@ -9,8 +9,6 @@ gem 'puma'
 gem 'rack-canonical-host'
 
 # Database
-gem 'pg'
-gem 'delayed_job_active_record'
 gem 'mongoid'
 gem 'bson_ext'
 
