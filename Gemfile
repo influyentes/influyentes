@@ -11,6 +11,8 @@ gem 'rack-canonical-host'
 # Database
 gem 'pg'
 gem 'delayed_job_active_record'
+gem 'mongoid'
+gem 'bson_ext'
 
 # Authentication
 gem 'devise'
@@ -60,13 +62,16 @@ end
 
 group :development, :test do
   gem 'awesome_print'
-  gem 'bullet'
   gem 'bundler-audit', '>= 0.5.0', require: false
   gem 'dotenv-rails'
   gem 'factory_girl_rails'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails', '~> 3.5.0.beta4'
+
+  # Bullet disabled until adds support to mongodb 6
+  # remember to uncomment Bullet code in config/development.rb:17
+  # gem 'bullet'
 end
 
 group :development, :staging do

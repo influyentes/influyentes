@@ -13,11 +13,14 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
   config.action_mailer.raise_delivery_errors = true
-  config.after_initialize do
-    Bullet.enable = true
-    Bullet.bullet_logger = true
-    Bullet.rails_logger = true
-  end
+
+  # Bullet disabled until adds support to mongodb 6
+  # config.after_initialize do
+  #   Bullet.enable = true
+  #   Bullet.bullet_logger = true
+  #   Bullet.rails_logger = true
+  # end
+
   config.action_mailer.delivery_method = :file
   config.action_mailer.perform_caching = false
   config.active_support.deprecation = :log
